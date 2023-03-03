@@ -17,6 +17,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
     .then( ( response ) => {
         return response.json()
     }).then ( ( data ) => {
+
+        
+
         for(astronaut of data) {
             let astronautString = 
             `
