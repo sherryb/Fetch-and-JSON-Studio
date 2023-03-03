@@ -16,9 +16,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
     let data = fetch("https://handlers.education.launchcode.org/static/astronauts.json")
     .then( ( response ) => {
         return response.json()
-    }).then ( ( data ) => {
-
-        
+    })
+    .then ( ( data ) => {
 
         for(astronaut of data) {
             let astronautString = 
